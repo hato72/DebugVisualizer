@@ -1,0 +1,11 @@
+def add(num1,num2):
+  num = 0
+  for i in range(5):
+    print(num)
+    if (num + num2) % 2 == 0:
+      num += num1
+    else:
+      num -= num2
+  return num
+
+print(add(5,10))
